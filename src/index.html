@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>KidvsKat-Portafolio-02</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- FUENTES -->
+  <link rel="stylesheet" href="./assets/fonts/Sarala.css">
+  <link rel="stylesheet" href="./assets/fonts/Otomanopee.css">
+  <link rel="stylesheet" href="./assets/fonts/Sulphur.css">
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px"
+  });
+
+  function togglemenu() {
+    if (menuList.style.maxHeight == "0px") {
+      menuList.style.maxHeight = "205px";
+    } else {
+      menuList.style.maxHeight = "0px";
+    }
+  };
+
+</script>
+
+</html>
